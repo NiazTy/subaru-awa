@@ -1,0 +1,22 @@
+{
+  "name": "subaru-awa",
+  "version": "1.0.0",
+  "description": "simple",
+  "type": "module",
+  "main": "js/index_test.js",
+  "scripts": {
+    "test": "npx tailwindcss -i css/base.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "subaru",
+    "awa"
+  ],
+  "author": "NiazTy",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
