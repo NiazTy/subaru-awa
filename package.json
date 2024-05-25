@@ -5,7 +5,7 @@
   "type": "module",
   "main": "js/index_test.js",
   "scripts": {
-    "test": "npx tailwindcss -i css/base.css -o ./dist/output.css --watch"
+    "test": "npx tailwindcss -i src/css/base.css -o ./dist/output.css --watch"
   },
   "keywords": [
     "subaru",
