@@ -5,7 +5,7 @@ import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 const generativeAI = new GoogleGenerativeAI(setting.API_KEY);
 const md = new MarkdownIt();
 
-const model = generativeAI.getGenerativeModel({ model: "gemini-pro" });
+const model = generativeAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
 const chat = model.startChat({
     history: [
         {
